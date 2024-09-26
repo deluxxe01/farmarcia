@@ -1,0 +1,78 @@
+
+:root{
+    --cor-1: #e23e57;
+    --cor-2: #ffffff;
+    --cor-3: #e96a7e;
+    --cor-4: #ce1f3a;
+    --cor-5: #e6e6e6;
+    --cor-6: #ef97a4;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    
+}
+
+/* Estilos da navbar */
+nav {
+    background-color: #e96a7e; /* Cor de fundo da navbar */
+    
+    display: inline-flex;
+    justify-content:space-around;
+    margin-top: 30px;
+    padding: 15px 20px;
+    border-radius: 30px;
+    border: solid #e23e57;
+    
+}
+
+
+
+nav ul {
+    
+    list-style: none; /* Remove os marcadores da lista */
+    display: flex;
+    gap: 20px; /* Espaço entre os itens da lista */
+}
+
+nav ul li a {
+    color: white; /* Cor do texto */
+    text-decoration: none; /* Remove o sublinhado */
+    padding: 8px 15px;
+    transition: background-color 0.10s; /* Transição suave para hover */
+}
+
+nav ul li a:hover {
+    background-color: #ce1f3a; /* Cor ao passar o mouse */
+    border-radius: 30px;
+    
+}
+
+/* nav .search-cart {
+    display: flex;
+    align-items: center;
+}
+
+nav .search-cart input {
+    padding: 8px;
+    border: none;
+    border-radius: 4px; /* Bordas arredondadas 
+} 
+
+nav .search-cart a {
+    margin-left: 10px; /* Espaço entre a busca e o carrinho 
+}
+
+nav .search-cart a img {
+    height: 30px; /* Altura do ícone do carrinho 
+}*/
+.NavBar-Logo{
+    border-radius: 10px;
+    margin-top: 50px;
+}
