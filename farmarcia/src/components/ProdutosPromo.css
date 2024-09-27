@@ -1,0 +1,53 @@
+.Card-produto {
+    margin-top: 100px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f9f9f9;
+    
+  }
+  
+  .Card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    transition: transform 0.2s;
+  }
+  
+.Card img {
+    height: 100px;
+    width: 60px;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .Card p {
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .Preco {
+    font-weight: bold;
+    color: #e23e57; /* Cor do preço */
+  }
+  
+  button {
+    background-color: #e23e57; /* Cor do botão */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  button:hover {
+    background-color: #d21c50; /* Cor do botão ao passar o mouse */
+    transform: scale(1.05); /* Efeito de zoom no botão */
+  }
