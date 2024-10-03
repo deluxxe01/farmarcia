@@ -1,0 +1,48 @@
+.carrossel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 600px; /* Largura do carrossel */
+    margin: auto; /* Centraliza o carrossel */
+    overflow: hidden; /* Esconde imagens fora da área visível */
+    margin-top: 3%;
+    border-radius: 10px;
+  }
+  
+  .imagem {
+    width: 100%; /* Para que a imagem ocupe toda a largura do carrossel */
+    height: 300px; /* Mantém a proporção da imagem */
+    transition: opacity 0.5s ease; /* Transição suave ao mudar as imagens */
+  }
+  
+  .botao {
+    background-color: rgba(255, 255, 255, 0.7); /* Fundo semitransparente */
+    border: none;
+    border-radius: 50%; /* Forma circular */
+    cursor: pointer;
+    font-size: 24px;
+    padding: 10px;
+    position: absolute; /* Permite posicionar os botões sobre a imagem */
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .botao:first-of-type {
+    left: 10px; /* Botão anterior */
+  }
+  
+  .botao:last-of-type {
+    right: 10px; /* Botão próximo */
+  }
+  .carrossel-container {
+    text-align: center; /* Centraliza o título e o carrossel */
+    margin: 10px 0; /* Adiciona margens em cima e embaixo do carrossel */
+  }
+  .carrossel-titulo {
+    margin-top: 15%;
+    font-size: 24px; /* Tamanho da fonte do título */
+    font-weight: bold; /* Estilo da fonte */
+    color: #ce1f3a; /* Cor do texto */
+     /* Espaço entre o título e o carrossel */
+  }

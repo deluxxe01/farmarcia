@@ -4,15 +4,18 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Header from './components/Header'
 import ProdutosPromo from './components/ProdutosPromo'
+import Carrossel from './components/Carrossel'
+
 
 function App() {
 
 
   return (
     <>
-     <Header />
-     <ProdutosPromo />
-     
+    <Header />
+    <Carrossel />
+    <ProdutosPromo />
+   
     </>
   )
 }

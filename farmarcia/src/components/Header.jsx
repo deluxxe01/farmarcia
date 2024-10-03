@@ -8,10 +8,12 @@ function Header() {
         <nav>
           <ul>
             <li><a href='/' >MEDICAMENTOS</a></li>
-            <li><a href='/' >BEBES</a></li>
+            <li><a href='/' >BEBÊS</a></li>
             <li><a href='/' >HIGIENE</a></li>
             <li><a href='/' >FITNESS</a></li>
             <li><a href='/' >DERMOCOSMÉTICOS</a></li> 
+            <img src="perfilUsuario.png" alt="Logo da Empresa"  height="30px"/>
+            <img src="carrinhoUsuario.png" alt="Logo da Empresa"  height="30px"/>
           </ul>
         </nav>
 

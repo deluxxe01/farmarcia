@@ -4,6 +4,11 @@ import './ProdutosPromo.css';
 
 function ProdutosPromo() {
   return (
+    
+    <div className='Titulo-promo'>
+
+   <p>Melhores descontos em cuidados com Bebê</p>
+
     <div className='Card-produto'>
       
       <div className='Card'>
@@ -35,11 +40,20 @@ function ProdutosPromo() {
       </div>
 
       <div className='Card'>
+        <img src="pomadaBebe.png" alt="Fralda de bebê Pampers" />
+        <p>Bepantol Baby Creme Preventivo de Assaduras Para Bebês 120g</p>
+        <p className='Preco'>Preço:  R$ 64,99</p>
+        <button>ADICIONAR</button>
+      </div>
+
+      <div className='Card'>
         <img src="oleoBebe.png" alt="Fralda de bebê Pampers" />
         <p>Johnson's Baby Óleo Hidratante,200ml</p>
         <p className='Preco'>Preço:  R$ 47,99</p>
         <button>ADICIONAR</button>
-        </div>
+      </div>
+
+    </div>
     </div>
     
   )
